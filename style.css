@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 58%, rgba(12,35,144,1) 100%);
+}
+h1{
+  font-family: helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+div{
+
+}
+header{
+  width: 100%;
+  height: 500px;
+  background-image: url("img/pano-1.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  text-align: center;
+  float: left;
+}
+
+p{
+  font-family: helvetica, serif;
+  text-align: center
+}
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+dd{
+  margin-left: 1em;
+  font-size: 20px;
+  text-align: center;
+}
+dt{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul{
+  padding-left: 38%;
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+}
+nav{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+li {
+float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ffadce;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+.roll{
+  width: 100%;
+  height: 200px;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+#list{
+float: left;
+}
